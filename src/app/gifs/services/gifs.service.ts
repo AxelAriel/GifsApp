@@ -50,7 +50,7 @@ export class GifsService {
     .subscribe( resp => {
 
       this.gifsList = resp.data;
-      console.log( { gifs : this.gifsList } );
+      // console.log( { gifs : this.gifsList } );
        
     } )        
   }
